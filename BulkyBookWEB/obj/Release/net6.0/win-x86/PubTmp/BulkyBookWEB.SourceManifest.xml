@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\MAIN\C#\ASP.NET Core MVC\BulkyBook\BulkyBookWEB\obj\Release\net6.0\win-x86\PubTmp\Out\" />
+  <dbfullsql path="C:\MAIN\C#\ASP.NET Core MVC\BulkyBook\BulkyBookWEB\obj\Release\net6.0\win-x86\PubTmp\EFSQLScripts\BulkyBookWEB.Data.ApplicationDBContext.sql" />
+</sitemanifest>

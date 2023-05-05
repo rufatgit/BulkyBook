@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAACSoo6AvmrEWGRkmFabo9ngAAAAACAAAAAAAQZgAAAAEAACAAAABhSvnLTQqw+0Brjk2cNu6xZKB30jZu00+XKq8ke2f+tQAAAAAOgAAAAAIAACAAAAB6h8Llzaup4FPnsWwGBrmgGjFYW4ukPEY2WqyjbQJlSoAAAABi84ywL9IDnOHs7hxU90K4Ztkq4TMmi4/PWWIxPGnBy3cnqFvFYc7CdeUZ2PyiT8UM3SY/PjsqmIDfZIwvzTbjPtlFDOfVi6B4qXaCweZ7eEYsaobEaHxndcC8Uxc1G7MsMIHlXzmg1buoc29yER3RSX9V8ciO2MmzQbY5TbBCa0AAAAC0/HhZHds46ZNGVBy2HJl4FM82nWx77y7I2kHKAl/c2eyi38WJRbzfAecmrYrm7Oa94M1ffHuaod8ITlWDaUbv</EncryptedPassword>
+    <History>True|2023-05-01T13:44:55.0983432Z;True|2023-05-01T15:43:37.1117527+02:00;True|2023-05-01T15:41:47.1306793+02:00;True|2023-05-01T15:38:01.6500497+02:00;False|2023-05-01T15:34:49.7047757+02:00;False|2023-05-01T15:33:10.7150116+02:00;True|2023-05-01T15:30:21.9076793+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:dotdotnetmasteryserver.database.windows.net,1433%3bInitial Catalog=dotnermastery_db%3bPersist Security Info=False%3bUser ID=rufat%3bPassword=Tafur2002%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBookWEB.Data.ApplicationDBContext">
+      <Value>Server=tcp:dotdotnetmasteryserver.database.windows.net,1433%3bInitial Catalog=dotnermastery_db%3bPersist Security Info=False%3bUser ID=rufat%3bPassword=Tafur2002%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
